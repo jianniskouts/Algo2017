@@ -51,7 +51,7 @@ int main(){
     long long int** a = (long long int**) malloc(sizeof(long long int*) * N);
     long long int i;
     for ( i = 0; i < N; ++i) {
-        a[i] = (long long int*) malloc(sizeof(long long int) * 2);
+        a[i] = (long long int*) malloc(sizeof(long long int) * 3);
         scanf("%lld %lld", &a[i][0], &a[i][1]);
         a[i][2] = 0;
     }
